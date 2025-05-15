@@ -1,0 +1,13 @@
+--------------------------------------------------------------------------------
+cd "F:\1.44TFT_ILI9163C\LCD_9163"
+git init
+git config user.name "[xxxxxxxx]"
+git config user.email "[xxxxxxxxxxxxxxxxxx@xxxxxxxxx]"
+git config user.password "????????????"
+git pull "https://github.com/jsompong/1.44TFT_ILI9163C.git"
+git branch -M modified
+git add .
+git commit -m “modifiedmessage”
+git remote add jsompong https://github.com/jsompong/1.44TFT_ILI9163C.git
+git push --set-upstream jsompong modified
+------------------------------------------------------------------------------
